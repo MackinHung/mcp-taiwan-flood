@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "target": "ES2022",
     "module": "ES2022",
@@ -9,10 +10,18 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
+=======
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+>>>>>>> 3e929395f2e09d7013ba4a45712d2749c78d8e8e
     "outDir": "dist",
     "rootDir": "src",
     "types": ["@cloudflare/workers-types", "node"]
   },
+<<<<<<< HEAD
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
+=======
+  "include": ["src"]
+>>>>>>> 3e929395f2e09d7013ba4a45712d2749c78d8e8e
 }
